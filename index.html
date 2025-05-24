@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Estudiantes</title>
+</head>
+<body>
+  <h1>Formulario de Registro de Estudiantes</h1>
+  
+  <!-- Formulario que se enviará a registrar.php -->
+  <form action="registrar.php" method="POST">
+    
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Correo:</label><br>
+    <input type="email" name="correo" required><br><br>
+
+    <label>Programa:</label><br>
+    <input type="text" name="programa" required><br><br>
+
+    <input type="submit" value="Registrar">
+  </form>
+</body>
+</html>
